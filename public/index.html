@@ -1,0 +1,108 @@
+<head>
+        <title> Belajar Web - EP 2</title>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    </head>
+<head>
+    
+</div>
+    <body>
+        <!-- update kecil untuk testing git-->
+        <header>
+            <h1>Belajar Web</h1>
+            <p>Dari Nol Jadi Pro</p>
+        </header>
+        <nav class="nav-atas">
+            <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Artikel</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+        </nav>
+    
+        <nav class="nav-bawah">
+
+            <main>
+                <article>
+                    <header>
+                        <h2> Kenapa harus HTML semantik?</h2>
+                        <p> oleh ALIA KHAIRAH DWI ANANDA - 08 November  2025</p>
+                    </header>
+                    <p> HTML semantik bikin kode lebih mudah dibaca dan ramah mesin pencarian</p>
+                    <figure>
+                        <img src="nandapict.jpeg" width ="200" alt="ilustrasi web semantik">
+                        <figcaption>Struktur semantik yang jelas memudahkan semuanya.</figcaption>
+                    </figure>
+                    <footer>
+                        <p>tags: <a href="#">HTML </a>, <a href="#">TUTORIAL</a></p>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h2>Artikel tentang flexbox dan CSS Grid</h2>
+                        <p> Oleh ALIA KHAIRAH DWI ANANDA - 8 November 2025</p>
+                    </header>
+                    <p> Artikel Ini Menjelaskan tentang flexbox dan CSS Grid</p>
+                </article>
+                <article>
+                    <header>
+                        <h2>Artikel tentang Keputrian</h2>
+                        <p> Oleh ALIA KHAIRAH DWI ANANDA - 10 Februari 2025</p>
+                    </header>
+                    <p> Artikel Ini Menjelaskan tentang Pentingnya Self-Love dan Batasan Diri: Bagaimana cara mencintai diri sendiri tanpa menjadi egois</p>
+                </article>
+                <article>
+                    <header>
+                        <h2>Artikel tentang gaya hidup</h2>
+                        <p> Oleh ALIA KHAIRAH DWI ANANDA- 10 Februari 2025</p>
+                    </header>
+                    <p> Artikel Ini Menjelaskan tentang Manajemen Waktu untuk Pelajar/Mahasiswi: Kiat menyeimbangkan kegiatan akademik, organisasi, dan waktu pribadi.</p>
+                    <button id="btn">Lihat Waktu</button>
+                    <p id="timeDisplay">-</p>
+                </article>
+
+                <section>
+                     <h2>Form Kontak</h2>
+                      <form action="/contact" method="POST">
+                        <label>Nama</label><br>
+                        <input type="text" name="name" required><br><br>
+
+                        <label>Pesan</label><br>
+                        <textarea name="message" rows="4" required></textarea><br><br>
+
+                        <label>Email</label><br>
+                        <input type="email" name="email" required><br><br>
+
+                        <label>No HP</label><br>
+                        <input type="text" name="nohp" required><br><br>
+
+                        <button type="submit">Kirim</button>
+                      </form>
+                </section>
+
+                <aside>
+                    <h3>ARTIKEL LAIN</h3>
+                    <ul>
+                        <li><a href="#">CaraPakai Flexbox</a></li>
+                        <li><a href="#">Mengenal CSS Grid</a></li>
+                    </ul>
+                </aside>
+            </main>
+            <section class="gallery">
+                <h2>Gallery Proyek</h2>
+                <div class="grid-container">
+                    <div class="item">gambar 1</div>
+                    <div class="item">gambar 2</div>
+                    <div class="item">gambar 3</div>
+                    <div class="item">gambar 4</div>
+                </div>
+            </section>
+            <footer>
+                <p>@Copy; 2025 Belajar web</p>
+            </footer>
+        </nav>
+        <script src="script.js"></script>
+    </body>
+</head>
+</html>
